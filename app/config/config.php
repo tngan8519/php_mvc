@@ -9,7 +9,7 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URLROOT (Dynamic links)
-    define('URLROOT', 'http://localhost:8080/mvcloginregister');
+    define('URLROOT', 'http://localhost:8080/php_mvc');
 
     //Sitename
     define('SITENAME', 'Welcome to Ourbooks');
