@@ -1,0 +1,672 @@
+/************************
+Chỉnh CSS chung
+************************/
+
+.mauchu {
+    color: #f48225;
+}
+
+.maunen {
+    background-color: #f5903d;
+    color: white;
+}
+
+.maunennut {
+    background-color: #E0CA71;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/************************
+Chỉnh CSS cho header
+************************/
+
+.row{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.height100 {
+	height: 85px;
+}
+
+.height50{
+	height: 50px;
+}
+
+.background{
+    background-color: #F1F1F1;
+}
+
+#tieude {
+    font-family: 'Arial';
+    margin-bottom: 0px;
+    margin-top: 27px;
+    margin-left: 130px;
+    font-size: 51px;
+}
+
+#logo {
+    width: 120px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left:100px;
+}
+
+.nutdangnhap {
+    margin: 10px;
+    margin-top: 0px;
+    width: 150px;
+    height: 46px;
+    font-size: 20px;
+}
+
+#cotmenu {
+    padding: 0px;
+}
+
+#cottimkiem {
+    padding: 0px;
+    
+}
+
+#cotdieuhuong {
+    padding: 0px;
+}
+
+#otimkiem {
+    margin-top: 15px;
+   
+}
+
+.kichthuocmenu {
+    width: 20%;
+    height: 40px;
+}
+
+
+#hinhmenu {
+    padding-right: 0px;
+}
+
+#dropdownMenuButton {
+    margin-top: 15px;
+    padding: 0px;
+    background-color:#F1F1F1;
+    border: hidden;
+}
+
+#otextsearch {
+    width: 92%;
+}
+#otextsearch1{
+    height: 40px;
+    width: 90%;
+    font-size: 15px;
+
+    
+}
+
+#iconsearch {
+    width: 8%;
+}
+
+#danhsachlink {
+    width: 100%;
+}
+
+#dieuhuong {
+    width: 40px;
+    height: 40px;
+}
+
+#collapsedieuhuong {
+    width: 100%;
+}
+
+#menudropdown_book, #menudropdown_nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	margin-left: 30px;
+}
+
+#thanhdieuhuong {
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+#thanhgach {
+    visibility: hidden;
+}    
+
+#trangchu_6, #trangchu_7, #trangchu_8, #trangchu_9 {
+    background-color: #260a07;
+    border-color: #e4a51f;
+    margin-top: 0px;
+}
+
+#trangchu_1, #trangchu_2, #trangchu_3, #trangchu_4 {
+    background-color: #260a07;
+    border-color: #e4a51f;
+    width: 25%;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#trangchu:hover, #trangchu_1:hover, #trangchu_2:hover, #trangchu_3:hover, #trangchu_4:hover, #trangchu_5:hover, #trangchu_6:hover, #trangchu_7:hover, #trangchu_8:hover, #trangchu_9:hover {
+    background-color: #f48225;
+    border-color: #f48225;
+}
+
+#trangchu {
+    background-color:#f2ca52;
+    border-color:#f2ca52;
+    width: 25%;		
+    margin-top: 0px;
+}
+
+#trangchu_5 {
+    background-color:#f2ca52;
+    border-color:#f2ca52;
+    margin-top: 0px;
+}
+
+#trangchu, #trangchu_1, #trangchu_2, #trangchu_3, #trangchu_4, #trangchu_5 {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border: none;
+}
+
+/************************
+Chỉnh CSS cho container
+************************/
+
+section {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 1100px;
+    background-color: #F1F1F1;
+}
+
+div.container {
+    width: 80%;  
+    margin: auto; 
+    padding-bottom: auto; 
+}
+/* định dạng thẻ div chưa các button tab */
+div.tab {
+
+width: 100%;
+
+height: 30px;
+
+border: none;
+
+background-color: #f1f1f1f1;
+
+margin-left: 180px;
+
+color: white;
+}
+
+
+
+/* định dạng các button tab */
+div.tab button {
+    background-color: #F37B1B; 
+    float: left;
+    border: solid 3px #F1F1F1;
+    outline: none;
+    cursor: pointer;
+    padding-bottom: auto;
+    transition: 0.3s;
+    font-size: 14px;
+    width: 130px;
+    height: 80px;
+    color: #f1f1f1f1;
+    font-weight: bold;
+    
+
+}
+
+/* đổi màu khi một button tab được hover */
+div.tab button:hover {
+    background-color: #F37B1B;
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+div.tab button.active {
+    background-color: #f3df27f1;
+}
+
+.tieudetab{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* định dạng nội dung hiển thị */
+.tabcontent {
+    display: contents;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+    border: #260a07;
+    border-color: #260a07;
+    font-size: 14px;
+}
+/*nút mô tả trong table*/
+.mota{ 
+    outline: none;
+    border: none;
+    background-color: #f1f1f1f1;
+
+}
+
+.table{
+    text-align: center;
+}
+
+.selectpicker{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn-primary {
+
+    transition: 0.3s;
+    margin-top: 40px;
+    border: solid 2px #F1F1F1;
+    background-color: #F37B1B;
+    color: white
+    display: contents;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    
+     
+}
+
+.btn-primary:hover {
+ 
+    outline: none;
+    background: #f3df27f1;
+    border: none;
+}
+.btn-primary:active{
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+.pagination {
+    float: right;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #F37B1B;
+    color: white;
+    border: 1px solid #F37B1B;
+  }
+  
+
+
+#khungchuagiua {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 770px;
+
+}
+
+#khungslider {
+    margin-top: 15px;
+}
+
+#tuadesach {
+    margin-top: 15px;
+}
+
+#tuadesachtuongtu {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#chonmua {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 200px;
+    height: 59px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#tacgia {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#gmap_canvas {
+    width: 180px;
+    height: 140px;
+    margin-top: 15px;
+}
+
+.sach {
+    width: 200x;
+    height: 250px;
+    margin: auto;
+}
+
+.giasach {
+    width: 200px;
+    height: 15px;
+    margin: auto;
+}
+
+.mautuade {
+    color: #F37B1B;
+    font-size: 51px;
+    padding-top: 0px;
+}
+
+.mautuade1{
+    color: #F37B1B;
+    font-size: 38px;
+}
+
+.maunoidung{
+    font-size: 20px;
+}
+
+.maugia {
+    color:red;
+    font-size: 51px;
+}
+
+.maugia1 {
+    color: #F37B1B;
+    font-size: 32px;
+}
+
+
+.maunutchonmua {
+    background-color:red;
+    color: white;
+}
+
+.mautuadechitiet {
+    color: #D2691E;
+}
+
+.mautacgia {
+    color: orange;
+}
+
+.mautheloai {
+    color: #456f95;
+}
+
+.mauid {
+    color: #d8d8d8;
+}
+
+.canhgiua {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.kyhieu {
+    width: 40px;
+    height: 40px;
+}
+
+#chitietsach {
+    width: 268px;
+    height: 400px;
+}
+
+#chitietsach1 {
+    width: 140px;
+    height: 200px;
+}
+
+#chitietsach2 {
+    width: 130px;
+    height: 200px;
+}
+
+#danhdau {
+    width: 68px;
+    height: 87px;
+    display: inline;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-100 {
+    width: 230px;
+    height: 445px;
+}
+
+.card-body {
+    height: 90px;
+}
+
+.card-footer {
+    background-color: #F1F1F1;
+    border-style: none;
+    height: 40px;
+}
+
+#hangnoidung1 {
+    height: 10%;
+}
+
+#hangnoidung2 {
+    height: 10%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #F37B1B;
+}
+
+#hangnoidung3 {
+    padding-top: 50px;
+    border-bottom: solid 1px;
+    border-color: #F37B1B;
+    height: 20%;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    margin-top: 10px;
+}
+
+/************************
+Chỉnh CSS cho footer
+************************/
+
+#bklogo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-image: url("anhnen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+	height: 240px;
+}
+
+.tieudefooter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cottieudefooter {
+	height: 230px;
+}
+
+#cotlienhefooter {
+	height: 230px;	
+}
+
+#hangtacgia {
+	height: 60px;
+}
+
+#cotlienhe {
+	height: 100%;
+}
+
+#lienhediachi, #lienhelogo {
+	height: 100%;
+}
+
+
+
+
+/********************************************************
+Chỉnh media query cho màn hình của các thiết bị khác nhau
+*********************************************************/
+@media screen and (max-width: 1404px) {
+    section {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 1332px) {
+    section {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 1317px) {
+    section {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 1283px) {
+    section {
+        height: 1350px;
+    }
+}
+
+@media screen and (max-width: 1247px) {
+    section {
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width: 1242px) {
+    section {
+        height: 1500px;
+    }
+}
+
+
+@media screen and (max-width: 1180px) {
+    .menudidong {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1047px) {
+    .menudidong {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	#logo{
+		margin-left: 0;
+	}
+	#tieude{
+		margin-left: 0;
+		text-align: center;
+	}
+	div.tab{
+	
+		height: auto;
+		text-align: center;
+    }
+    section{
+        height: 1100px;
+    }
+	
+	.row{
+		height: auto;
+	}
+	div.tab button{
+		float: left;
+	}
+}
+
+@media screen and (max-width: 991px) {
+    section{
+        height: 1300px ;
+    }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
+      
+}
+
+@media only screen and (max-width: 575px) {
+    #lienhelogo {
+        height: 180px;
+    }          
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 374px) {
+    
+}
+
+
+

@@ -1,0 +1,1283 @@
+/************************
+Chỉnh CSS chung
+************************/
+
+.mauchu {
+  color: #f48225;
+}
+
+.maunen {
+  background-color: #f5903d;
+  color: white;
+}
+
+.maunennut {
+  background-color: #e0ca71;
+}
+
+p {
+  font-size: 16px;
+}
+
+/************************
+Chỉnh CSS cho header
+************************/
+
+.row {
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.height100 {
+  height: 85px;
+}
+
+.background {
+  background-color: #f1f1f1;
+}
+
+#tieude {
+  font-family: "Arial";
+  margin-bottom: 0px;
+  margin-top: 27px;
+  margin-left: 130px;
+  font-size: 51px;
+}
+
+#logo {
+  width: 120px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.nutdangnhap {
+  margin: 10px;
+  margin-top: 0px;
+  width: 150px;
+  height: 46px;
+  font-size: 20px;
+}
+
+#cotmenu {
+  padding: 0px;
+}
+
+#cottimkiem {
+  padding: 0px;
+}
+
+#cotdieuhuong {
+  padding: 0px;
+}
+
+#otimkiem {
+  margin-top: 15px;
+}
+
+.kichthuocmenu {
+  width: 20%;
+  height: 40px;
+}
+
+#hinhmenu {
+  padding-right: 0px;
+}
+
+#dropdownMenuButton {
+  margin-top: 15px;
+  padding: 0px;
+  background-color: #f1f1f1;
+  border: hidden;
+}
+
+#otextsearch {
+  width: 92%;
+}
+
+#iconsearch {
+  width: 8%;
+}
+
+#danhsachlink {
+  width: 100%;
+}
+
+#dieuhuong {
+  width: 40px;
+  height: 40px;
+}
+
+#collapsedieuhuong {
+  width: 100%;
+}
+
+.menudropdown {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 30px;
+}
+
+#thanhdieuhuong {
+  margin-top: 10px;
+  padding: 0px;
+  width: 100%;
+}
+
+#thanhgach {
+  visibility: hidden;
+}
+
+#trangchu_6,
+#trangchu_7,
+#trangchu_8,
+#trangchu_9 {
+  background-color: #260a07;
+  border-color: #e4a51f;
+}
+
+#trangchu_1,
+#trangchu_2,
+#trangchu_3,
+#trangchu_4 {
+  background-color: #260a07;
+  border-color: #e4a51f;
+  width: 25%;
+}
+
+#trangchu:hover,
+#trangchu_1:hover,
+#trangchu_2:hover,
+#trangchu_3:hover,
+#trangchu_4:hover,
+#trangchu_5:hover,
+#trangchu_6:hover,
+#trangchu_7:hover,
+#trangchu_8:hover,
+#trangchu_9:hover {
+  background-color: #f48225;
+  border-color: #f48225;
+}
+
+#trangchu {
+  background-color: #f2ca52;
+  border-color: #f2ca52;
+  width: 25%;
+}
+
+#trangchu_5 {
+  background-color: #f2ca52;
+  border-color: #f2ca52;
+}
+
+/************************
+Chỉnh CSS cho container
+************************/
+
+section {
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 1450px;
+  background-color: #f1f1f1;
+}
+
+#containerchua {
+  padding-top: 10px;
+  width: 90%;
+}
+
+#khungchuagiua {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 770px;
+}
+
+#khungslider {
+  margin-top: 15px;
+}
+
+#tuadesach {
+  margin-top: 15px;
+}
+
+#tuadesachtuongtu {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#chonmua {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 200px;
+  height: 59px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#tacgia {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.sach {
+  width: 200px;
+  height: 250px;
+  margin: auto;
+}
+
+.giasach {
+  width: 200px;
+  height: 15px;
+  margin: auto;
+}
+
+.mautuade {
+  color: #f37b1b;
+  padding-top: 0px;
+}
+
+.mautuade1 {
+  color: #f37b1b;
+  font-size: 38px;
+}
+
+.maunoidung {
+  font-size: 20px;
+}
+
+.maugia {
+  color: red;
+  font-size: 51px;
+}
+
+.maugia1 {
+  color: #f37b1b;
+  font-size: 32px;
+}
+
+.maunutchonmua {
+  background-color: red;
+  color: white;
+}
+
+.mautuadechitiet {
+  color: #d2691e;
+}
+
+.mautacgia {
+  color: orange;
+}
+
+.mautheloai {
+  color: #456f95;
+}
+
+.mauid {
+  color: #d8d8d8;
+}
+
+.canhgiua {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.kyhieu {
+  width: 40px;
+  height: 40px;
+}
+
+#chitietsach {
+  width: 268px;
+  height: 400px;
+}
+
+#chitietsach1 {
+  width: 140px;
+  height: 200px;
+}
+
+#chitietsach2 {
+  width: 130px;
+  height: 200px;
+}
+
+#danhdau {
+  width: 68px;
+  height: 87px;
+  display: inline;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.card-100 {
+  width: 230px;
+  height: 400px;
+}
+
+.card-body {
+  height: 90px;
+}
+
+.card-footer {
+  background-color: #f1f1f1;
+  border-style: none;
+  height: 40px;
+}
+
+#hangnoidung1 {
+  height: 10%;
+}
+
+#hangnoidung2 {
+  height: 10%;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #f37b1b;
+}
+
+#hangnoidung3 {
+  padding-top: 50px;
+  border-bottom: solid 1px;
+  border-color: #f37b1b;
+  height: 20%;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 0px;
+  width: 100%;
+}
+
+#carouselExampleIndicators {
+  margin-top: 10px;
+}
+
+#noidungmotasach {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+/************************
+Chỉnh CSS cho pop-up
+************************/
+
+#khungchuapopup_sach {
+  margin-top: 80px;
+  margin-left: 400px;
+}
+
+#popupdonhang_sach {
+  width: 800px;
+  height: 900px;
+  background-color: #f1f1f1;
+}
+
+#hangcuoicung {
+  padding-right: 0px;
+  height: 200px;
+}
+
+.modal-header {
+  background-color: #f5903d;
+  color: white;
+}
+
+.modal-title {
+  margin-left: 260px;
+}
+
+.chinhhangpopup {
+  height: 40px;
+}
+
+#nutchinhsua {
+  width: 60px;
+  height: 60px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 150px;
+}
+
+#anhnutchinhsua {
+  width: 60px;
+  height: 60px;
+}
+
+#nutpopup_1,
+#nutpopup_2 {
+  width: 120px;
+  height: 35px;
+  background-color: #f5903d;
+  border-color: #f5903d;
+  margin-right: 50px;
+}
+
+#nutpopup_1:hover,
+#nutpopup_2:hover {
+  background-color: #f5903d;
+  border-color: #f5903d;
+}
+
+#idnguoiban,
+#idnguoimua,
+#iddonhang {
+  width: 18%;
+}
+
+#tennguoiban,
+#nhanguoiban,
+#duongnguoiban,
+#tennguoimua,
+#nhanguoimua,
+#duongnguoimua,
+#sdtnguoiban,
+#xanguoiban,
+#tinhnguoiban,
+#sdtnguoimua,
+#xanguoimua,
+#tinhnguoimua {
+  width: 32%;
+}
+
+#thanhtoan {
+  width: 44%;
+}
+
+#idsach {
+  width: 25%;
+}
+
+#labelngaydathang {
+  width: 17%;
+}
+
+#labeltensach {
+  padding-left: 20px;
+  width: 13%;
+}
+
+#ngaydathang {
+  width: 25%;
+}
+
+#tensach_1 {
+  width: 40%;
+}
+
+#dongia,
+#phivanchuyen,
+#tongcong {
+  width: 40%;
+}
+
+.kichcochuID {
+  font-size: 22px;
+}
+
+#cotchuadongia {
+  padding-top: 31px;
+}
+
+.labeldongia {
+  width: 40%;
+}
+
+#nutpopup_1,
+#nutpopup_2 {
+  font-size: 16px;
+}
+
+/************************
+Chỉnh CSS cho footer
+************************/
+
+#bklogo {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-image: url("anhnen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 240px;
+}
+
+.tieudefooter {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cottieudefooter {
+  height: 230px;
+}
+
+#cotlienhefooter {
+  height: 230px;
+}
+
+#hangtacgia {
+  height: 60px;
+}
+
+#gmap_canvas {
+  width: 180px;
+  height: 140px;
+  margin-top: 15px;
+}
+
+#cotlienhe {
+  height: 100%;
+}
+
+#lienhediachi,
+#lienhelogo {
+  height: 100%;
+}
+
+/********************************************************
+Chỉnh media query cho màn hình của các thiết bị khác nhau
+*********************************************************/
+
+@media screen and (max-width: 1400px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 300px;
+  }
+
+  .modal-title {
+    margin-left: 240px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 1219px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+
+  .menudidong {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+
+  .cochudidong {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 160px;
+  }
+
+  .menudidong {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .cochudidong {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 140px;
+  }
+
+  .menudidong {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+
+  #hanglogo {
+    height: 150px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  #hangheader {
+    height: 270px;
+  }
+
+  .cochudidong {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #khungchuapopup_sach {
+    margin-top: 80px;
+    margin-left: 200px;
+  }
+
+  #popupdonhang_sach {
+    width: 600px;
+    height: 950px;
+  }
+
+  .chinhhangpopupdidong_1 {
+    height: 120px;
+  }
+
+  .chinhhangpopupdidong_2 {
+    height: 150px;
+  }
+
+  .chinhhangpopupdidong_3 {
+    height: 80px;
+  }
+
+  .modal-title {
+    margin-left: 150px;
+  }
+
+  section {
+    height: 1900px;
+  }
+
+  footer {
+    height: 500px;
+  }
+
+  #thanhgach {
+    visibility: visible;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #nutmenudidong {
+    width: 87px;
+  }
+
+  .cochudidong {
+    font-size: 18px;
+  }
+
+  #tieude {
+    margin-left: 0px;
+  }
+
+  #hangsach {
+    margin-left: 30px;
+  }
+
+  #thanhtoan {
+    width: 70%;
+  }
+
+  #labelidsach {
+    width: 26.7%;
+  }
+
+  #labelngaydathang,
+  #labeltensach {
+    width: 27%;
+  }
+
+  #ngaydathang,
+  #tensach_1 {
+    width: 70%;
+  }
+
+  #nutchinhsua {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #khungchuapopup_sach {
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  #khungchuapopup_sach {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .mautuade {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    height: 1900px;
+  }
+
+  #nutmenudidong {
+    width: 75px;
+  }
+
+  #danhdau {
+    width: 59px;
+    height: 73px;
+    display: inline;
+  }
+
+  .cochudidong {
+    font-size: 16px;
+  }
+
+  #tieude {
+    margin-left: 60px;
+  }
+
+  #cochugia {
+    font-size: 38px;
+    margin-top: 5px;
+  }
+
+  #chonmua {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .mautuade {
+    font-size: 40px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #khungchuapopup_sach {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  #popupdonhang_sach {
+    width: 600px;
+    height: 1450px;
+  }
+
+  section {
+    height: 3500px;
+  }
+
+  footer {
+    height: 490px;
+  }
+
+  #khungchuagiua {
+    background-color: white;
+    height: 1400px;
+  }
+
+  #khungchuaslide {
+    height: 100px;
+  }
+
+  .cochudidong {
+    font-size: 17px;
+  }
+
+  #hangsach {
+    margin-left: 80px;
+  }
+
+  #tennguoiban,
+  #nhanguoiban,
+  #duongnguoiban,
+  #tennguoimua,
+  #nhanguoimua,
+  #duongnguoimua {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #sdtnguoiban,
+  #phuongnguoiban,
+  #xanguoiban,
+  #tinhnguoiban,
+  #sdtnguoimua,
+  #phuongnguoimua,
+  #xanguoimua,
+  #tinhnguoimua {
+    width: 49.5%;
+    margin-bottom: 10px;
+  }
+
+  #ngaydathang,
+  #tensach_1,
+  #thanhtoan {
+    margin-bottom: 10px;
+  }
+
+  #hangcuoicung {
+    height: 350px;
+  }
+
+  #cotghichu {
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  #khungchuapopup_sach {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  #khungchuapopup_sach {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #khungchuapopup_sach {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #khungchuapopup_sach {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  section {
+    height: 3500px;
+  }
+
+  #nutmenudidong {
+    width: 65px;
+  }
+
+  .menudropdown {
+    margin-left: 15px;
+  }
+
+  #logo {
+    margin-left: 0px;
+  }
+
+  #tieude {
+    margin-left: 0px;
+  }
+
+  #hangsach {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  #khungchuapopup_sach {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  #popupdonhang_sach {
+    width: 520px;
+    height: 1500px;
+  }
+
+  #nutchinhsua {
+    margin-right: 35px;
+  }
+
+  .modal-title {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #khungchuapopup_sach {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  #popupdonhang_sach {
+    width: 500px;
+    height: 1700px;
+  }
+
+  #cotlienhe {
+    height: 250px;
+  }
+
+  footer {
+    height: 680px;
+  }
+
+  #sdtnguoiban,
+  #phuongnguoiban,
+  #xanguoiban,
+  #tinhnguoiban,
+  #sdtnguoimua,
+  #phuongnguoimua,
+  #xanguoimua,
+  #tinhnguoimua {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #thanhtoan {
+    width: 100%;
+  }
+
+  #nutchinhsua {
+    margin-right: 30px;
+  }
+
+  #nutpopup_1 {
+    margin-right: 20px;
+  }
+
+  #lienhelogo {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  #khungchuapopup_sach {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .chinhhangpopupdidong_3 {
+    height: 100px;
+  }
+
+  #sachtuongtu {
+    font-size: 33px;
+  }
+
+  #hangsach {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .mautuade {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  #popupdonhang_sach {
+    width: 400px;
+  }
+
+  #nutchinhsua {
+    margin-right: 20px;
+  }
+
+  #nutpopup_1,
+  #nutpopup_2 {
+    width: 100px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+
+  .modal-title {
+    margin-left: 60px;
+  }
+
+  #labelngaydathang,
+  #labeltensach {
+    padding-left: 0px;
+    width: 30%;
+  }
+
+  #ngaydathang,
+  #tensach_1 {
+    width: 68%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #nutmenudidong {
+    width: 60px;
+  }
+
+  .menudropdown {
+    margin-left: 10px;
+  }
+
+  #logo {
+    margin-left: 0px;
+  }
+
+  #tieude {
+    margin-left: 10px;
+  }
+
+  .mautuade {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 38px;
+  }
+
+  #khungchuagiua {
+    margin-left: 6px;
+  }
+
+  #cochugia {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  #hangsach {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .mautuade {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .cochudidong {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  #sachtuongtu {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 457px) {
+  #sachtuongtu {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  #sachtuongtu {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  #sachtuongtu {
+    font-size: 29px;
+  }
+
+  #khungchuapopup_sach {
+    margin-left: 70px;
+  }
+
+  #popupdonhang_sach {
+    height: 1750px;
+    width: 300px;
+  }
+
+  .modal-title {
+    margin-left: 0px;
+  }
+
+  #idnguoiban,
+  #iddonhang {
+    width: 47%;
+  }
+
+  #idnguoimua {
+    width: 44%;
+  }
+
+  #nutpopup_2 {
+    margin-left: 94px;
+  }
+}
+
+@media only screen and (max-width: 423px) {
+  #sachtuongtu {
+    font-size: 28px;
+  }
+
+  #hangsach {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  .mautuade {
+    font-size: 25px;
+    margin-top: 18px;
+  }
+
+  #cochugia {
+    font-size: 27px;
+    margin-top: 20px;
+  }
+
+  #chonmua {
+    width: 80px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .chunutlon {
+    width: 120px;
+    font-size: 15px;
+  }
+
+  #tieude {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+  #otextsearch {
+    width: 90%;
+  }
+
+  #iconsearch {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  .maunoidung {
+    font-size: 18px;
+  }
+
+  #sachtuongtu {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .mautuade {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  #khungchuapopup_sach {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .nutdangnhap {
+    width: 120px;
+  }
+
+  .chunutlon {
+    font-size: 15px;
+  }
+
+  .text-right {
+    text-align: left !important;
+  }
+
+  #otextsearch {
+    width: 90%;
+  }
+
+  #iconsearch {
+    width: 10%;
+    padding-left: 6px;
+  }
+
+  #thanhgach {
+    padding-left: 0px;
+  }
+
+  .menudropdown {
+    margin-left: 0px;
+  }
+
+  #tieude {
+    font-size: 38px;
+    margin-left: 27px;
+    margin-top: 45px;
+  }
+
+  .mautuade {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 23px;
+  }
+
+  .cochudidong {
+    font-size: 14px;
+  }
+
+  #cochugia {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  #chonmua {
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .maunoidung {
+    font-size: 17px;
+  }
+
+  #sachtuongtu {
+    font-size: 24px;
+  }
+
+  #hangsach {
+    margin-left: 0px;
+  }
+
+  #cotlienhe {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .mautuade {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .cochudidong {
+    font-size: 13px;
+  }
+
+  #khungchuapopup_sach {
+    margin-left: 40px;
+  }
+}

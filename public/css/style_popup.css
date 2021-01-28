@@ -1,0 +1,1005 @@
+.org_base_pop_up {
+  background-color: #ff7f26;
+}
+
+.each_row_form_pop_up {
+  height: 70px;
+  /* Dãn cách giữa 2 hàng thông tin trong form dang ky */
+}
+
+.frame_size_1_pop_up {
+  height: 52px;
+}
+
+.frame_size_2_pop_up {
+  height: 52px;
+  width: 535px;
+}
+
+.frame_size_3_pop_up {
+  height: 400px;
+  width: 839px;
+}
+
+.frame_size_4_pop_up {
+  height: 520px;
+}
+
+.container_frame_1 {
+  height: 520px;
+  /* Nền màu trắng */
+}
+
+.white_text {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.height_text_0 {
+  height: 70px;
+}
+
+.height_text_1 {
+  height: 50px;
+}
+
+.org_btn_pop_up {
+  background-color: #ff7e23;
+  border: #ff7e23;
+}
+
+.org_hover_pop_up:hover {
+  background-color: #ff7e23;
+}
+
+.org_hover_pop_up:onclick {
+  background-color: #ff7e23;
+}
+
+.grey_base_pop_up {
+  background-color: #c3c3c3;
+}
+
+.grey_btn_pop_up {
+  background-color: #c3c3c3;
+  border: #c3c3c3;
+}
+
+.grey_hover_pop_up:hover {
+  background-color: #c3c3c3;
+}
+
+.grey_hover_pop_up:click {
+  background-color: #c3c3c3;
+}
+
+.btn_text_pop_up {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center_text_pop_up {
+  text-align: center;
+  width: 515px;
+}
+
+#khungchuapopup {
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+#popupdonhang {
+  /* Chỉnh độ rộng của pop up đơn hàng */
+  width: 800px;
+  height: 880px;
+  background-color: #f1f1f1;
+}
+
+.title_color {
+  background-color: #ff7e26;
+}
+
+.center_text {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  padding: 0px;
+  margin: auto;
+}
+
+/* Pop up */
+.frame_in4_pop_up {
+  /* Chỉnh vị trí tương đối của pop up: pop up sẽ nằm  bên trái, giữa hay bên phải */
+  margin-left: 200px;
+}
+
+/* Modify ngày 26/4/2019 */
+.dangkymoi_pop_up {
+  margin-left: 300px;
+  /* Cho phép pop nằm trái, giữa hoặc phải */
+}
+
+.kichthuocdangkymoi_pop_up {
+  width: 839px;
+  height: 550px;
+  background-color: #f1f1f1;
+  /* Kích thước khung đựng nguyên cái pop up */
+}
+
+.dangkymoi_modal_body {
+  padding: 0px;
+  /* Chinh cho tràn toàn bộ khung modal */
+}
+
+.quenmatkhau_modal_body {
+  padding: 0px;
+  /* Chinh cho tràn toàn bộ khung modal */
+}
+
+.height_dangkymoi_left_pop_up {
+  height: 550px;
+  /* Khung cam bên trái, chỉnh chiều cao, bằng với height trong kichthuocdangkymoi_pop_up */
+}
+
+.margin_0px {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.padding_0px {
+  padding: 0px;
+}
+
+.frame_size_2_pop_up_dangkymoi_new {
+  height: 52px;
+  width: 100%;
+}
+
+.height_button_pop_up_new {
+  height: 54px;
+}
+
+#Fname_signup,
+#Lname_signup {
+  width: 35%;
+}
+
+.radius_overide {
+  border-radius: 0px;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.icon_font_size_color {
+  font-size: 48px;
+  color: rgb(218, 218, 218);
+  display: inline;
+  border: 1px solid rgb(168, 165, 165);
+}
+
+.text_box_height_color {
+  display: inline;
+  height: 50px;
+}
+
+.width_Fname,
+.width_Lname {
+  width: 40%;
+}
+
+.width_Email {
+  width: 1000px;
+}
+
+.donhang_pop_up {
+  margin-left: 22%;
+  /* Cho phép pop nằm trái, giữa hoặc phải */
+}
+
+.kichthuocdonhang_pop_up {
+  width: 180%;
+  height: auto;
+  background-color: #f1f1f1;
+  /* Kích thước khung đựng nguyên cái pop up */
+}
+
+.donhang_modal_body {
+  padding: 0px;
+  /* Chinh cho tràn toàn bộ khung modal */
+}
+
+.header_base_new {
+  /* Định dạng màu nền của header */
+  background-color: #f5903d;
+  height: 75px;
+  /* Nền header màu cam */
+}
+
+.buy_sell_title_new {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 28%;
+  color: white;
+}
+
+.donhang_modal_body_new {
+  padding: 0px;
+  /* Chinh cho tràn toàn bộ khung modal */
+}
+
+.margin_5px {
+  margin: 5px;
+}
+
+.donhang_title_pop_up {
+  color: #f5903d;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.font_size_12px {
+  font-size: 12px;
+}
+
+.khungdonhang {
+  height: auto;
+  border-bottom: 3px solid #f5903d;
+}
+
+.button_color_and_width_small_new {
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 20%;
+  height: 50px;
+  background-color: #f5903d;
+  border: #f5903d;
+}
+
+.width_height_align {
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+.padding_left_close_button {
+  padding-left: 10px;
+}
+/* Modify ngày 26/4/2019 */
+
+#popup_book_in4 {
+  /* Chỉnh giao diện trang pop up: bao gồm chiều rộng pop up, chiều cao pop up, màu nền pop up */
+  width: 800px;
+  height: 580px;
+  background-color: #f1f1f1;
+}
+
+#personal_in4 {
+  /* Chỉnh giao diện trang pop up: bao gồm chiều rộng pop up, chiều cao pop up, màu nền pop up */
+  width: 800px;
+  height: 400px;
+  background-color: #f1f1f1;
+}
+
+#add_story_in4 {
+  width: 800px;
+  height: 620px;
+  background-color: #f1f1f1;
+}
+
+.header_base {
+  /* Định dạng màu nền của header */
+  background-color: #f5903d;
+  height: 200px;
+  /* Nền header màu cam */
+}
+
+.book_title,
+.story_title {
+  /* Định dạng tiêu đề của trang THÔNG TIN SÁCH */
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 270px;
+  color: white;
+}
+
+.buy_sell_title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 400px;
+  color: white;
+}
+
+.label_book_in4 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.nutdong_popup {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#canhhanghoadonban,
+#canhhanghoadonmua {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cottieude {
+  height: 74px;
+  border-bottom: solid 1px;
+}
+
+#tensach {
+  width: 50%;
+}
+
+#giasach {
+  width: 35%;
+}
+
+#tentacgia {
+  width: 40%;
+}
+
+#theloai {
+  width: 39%;
+}
+
+#anhbia {
+  width: 30%;
+}
+
+#anhchitiet {
+  width: 50%;
+}
+
+#mota {
+  width: 100%;
+  height: 100px;
+}
+
+.button_color_and_width {
+  width: 100%;
+  background-color: #f5903d;
+  border: #f5903d;
+}
+
+.button_color_and_width_small {
+  margin-top: 30px;
+  margin-left: 450px;
+  width: 20%;
+  height: 50px;
+  background-color: #f5903d;
+  border: #f5903d;
+}
+
+#tenbaiviet {
+  width: 88%;
+}
+
+#tensach_thembaiviet {
+  width: 22%;
+}
+
+#ngaydang {
+  width: 25%;
+}
+
+#anhbia_thembaiviet {
+  width: 24%;
+}
+
+#mota_thembaiviet {
+  width: 100%;
+  height: 300px;
+}
+
+#Fname,
+#Lname,
+#Password {
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+.Email {
+  width: 48%;
+}
+
+#Phone,
+#AddressNo,
+#Street {
+  width: 48%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+#Ward,
+#Provine,
+#City {
+  width: 32%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+.order_in4 {
+  width: 1200px;
+  height: 600px;
+}
+
+.title_id_order {
+  font-size: 20px;
+  color: #f5903d;
+  font-weight: bold;
+}
+
+.order_in4_pop_up {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.frame_order {
+  height: 200px;
+}
+/* Media query */
+@media only screen and (max-width: 1155px) {
+  .donhang_pop_up {
+    margin-left: 13%;
+  }
+}
+
+@media only screen and (max-width: 1038px) {
+  .donhang_pop_up {
+    margin-left: 7%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Media query for iPad pro */
+  .donhang_pop_up {
+    margin-left: 7%;
+  }
+
+  .frame_size_4_pop_up {
+    width: 435px;
+    /* background-color: violet; */
+  }
+
+  .frame_in4_pop_up {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .dangkymoi_pop_up {
+    margin-left: 80px;
+  }
+
+  .kichthuocdonhang_pop_up {
+    width: 180%;
+    height: auto;
+
+    background-color: #f1f1f1;
+    /* Kích thước khung đựng nguyên cái pop up */
+  }
+
+  .buy_sell_title_new {
+    padding-left: 270px;
+  }
+
+  .width_height_align {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .padding_left_close_button {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .kichthuocdonhang_pop_up {
+    width: 193%;
+  }
+
+  .donhang_pop_up {
+    margin-left: 5%;
+  }
+
+  .kichthuocdonhang_pop_up {
+    width: 180%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .kichthuocdonhang_pop_up {
+    width: 140%;
+  }
+
+  .buy_sell_title_new {
+    padding-left: 150px;
+  }
+
+  .cottieude {
+    height: 25px;
+    border-bottom: none;
+    border-top: solid 1px;
+  }
+
+  .donhang_pop_up {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .donhang_pop_up {
+    margin-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Media query for iPad */
+  .frame_in4_pop_up {
+    /* Canh lề trái cho pop up */
+    margin-left: 10px;
+  }
+
+  #popup_book_in4 {
+    /* Kích thước pop up */
+    width: 748px;
+  }
+
+  #add_story_in4 {
+    width: 748px;
+    height: 660px;
+  }
+
+  #tensach_thembaiviet {
+    width: 45%;
+  }
+
+  #ngaydang {
+    width: 33%;
+  }
+
+  #anhbia {
+    width: 91%;
+  }
+
+  /* Pop up trang đăng ký */
+  .dangkymoi_pop_up {
+    margin-left: 10px;
+  }
+
+  .kichthuocdangkymoi_pop_up {
+    width: 748px;
+    height: 1200px;
+    background-color: #f1f1f1;
+  }
+
+  .row_1 {
+    padding-top: 80px;
+  }
+
+  .width_Fname {
+    width: 80%;
+  }
+
+  .width_Lname {
+    width: 80%;
+  }
+
+  .kichthuocdonhang_pop_up {
+    width: 130%;
+  }
+
+  .buy_sell_title_new {
+    padding-left: 100px;
+  }
+
+  .cottieude {
+    height: 25px;
+  }
+
+  #left_collum,
+  #left_collum_dangky,
+  #left_collum_dangnhap {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 711px) {
+  .kichthuocdonhang_pop_up {
+    width: 100%;
+  }
+
+  .buy_sell_title_new {
+    padding-left: 30px;
+  }
+
+  .donhang_pop_up {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .donhang_pop_up {
+    margin-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .buy_sell_title_new {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  .buy_sell_title_new {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  /* Media query for iPhone 6plus, 7plus, 8plus */
+  .frame_in4_pop_up {
+    /* Canh lề trái cho pop up */
+    margin-left: 10px;
+  }
+
+  #popup_book_in4 {
+    /* Kích thước pop up */
+    width: 395px;
+    height: 930px;
+  }
+
+  .book_title {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+
+  #tensach,
+  #giasach,
+  #tentacgia,
+  #theloai,
+  #anhbia,
+  #anhchitiet {
+    width: 100%;
+  }
+  #add_story_in4 {
+    /* Kích thước pop up */
+    width: 395px;
+    height: 930px;
+  }
+  .story_title {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  #tenbaiviet,
+  #tensach_thembaiviet,
+  #ngaydang,
+  #anhbia {
+    width: 100%;
+  }
+  #personal_in4 {
+    width: 355px;
+    height: 850px;
+  }
+
+  .Email {
+    width: 100%;
+  }
+
+  #Fname,
+  #Lname,
+  #Phone,
+  #AddressNo,
+  #Street,
+  #Ward,
+  #Provine,
+  #City {
+    width: 100%;
+  }
+  #Password {
+    width: 80%;
+  }
+  #reset {
+    width: 20%;
+  }
+  #anhbia_thembaiviet {
+    width: 100%;
+  }
+  /* Pop up trang đăng ký */
+  .dangkymoi_pop_up {
+    margin-left: 10px;
+  }
+  .kichthuocdangkymoi_pop_up {
+    width: 395px;
+    height: 1200px;
+    background-color: #f1f1f1;
+  }
+  .row_1 {
+    padding-top: 80px;
+  }
+  .width_Fname {
+    width: 80%;
+  }
+  .width_Lname {
+    width: 80%;
+  }
+
+  .kichthuocdonhang_pop_up {
+    width: 100%;
+  }
+  .width_height_align {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .padding_left_close_button {
+    padding-left: 0px;
+  }
+  #left_collum,
+  #left_collum_dangky,
+  #left_collum_dangnhap {
+    display: none;
+  }
+
+  .buy_sell_title_new {
+    padding-left: 5px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 406px) {
+  .buy_sell_title_new {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Media query for iPhone X */
+  .frame_in4_pop_up {
+    /* Canh lề trái cho pop up */
+    margin-left: 10px;
+  }
+  #popup_book_in4 {
+    /* Kích thước pop up */
+    width: 355px;
+    height: 930px;
+  }
+  #tensach,
+  #giasach,
+  #tentacgia,
+  #theloai,
+  #anhbia,
+  #anhchitiet {
+    width: 100%;
+  }
+  .book_title {
+    font-size: 30px;
+    padding-left: 25px;
+  }
+  #add_story_in4 {
+    /* Kích thước pop up */
+    width: 355px;
+    height: 930px;
+  }
+  .story_title {
+    font-size: 30px;
+    padding-left: 15px;
+  }
+  #tenbaiviet,
+  #tensach_thembaiviet,
+  #ngaydang,
+  #anhbia {
+    width: 100%;
+  }
+  #personal_in4 {
+    width: 355px;
+    height: 850px;
+  }
+
+  .Email {
+    width: 100%;
+  }
+
+  #Fname,
+  #Lname,
+  #Phone,
+  #AddressNo,
+  #Street,
+  #Ward,
+  #Provine,
+  #City {
+    width: 100%;
+  }
+  #Password {
+    width: 80%;
+  }
+  #reset {
+    width: 20%;
+  }
+  #anhbia_thembaiviet {
+    width: 100%;
+  }
+  .khungphai {
+    margin-top: 10px;
+  }
+  .container_frame_1 {
+    width: 355px;
+  }
+  .frame_size_4_pop_up {
+    width: 355px;
+  }
+  /* Pop up trang đăng ký */
+  .dangkymoi_pop_up {
+    margin-left: 10px;
+  }
+  .kichthuocdangkymoi_pop_up {
+    width: 355px;
+    height: 1200px;
+    background-color: #f1f1f1;
+  }
+  .row_1 {
+    padding-top: 80px;
+  }
+  .width_Fname {
+    width: 80%;
+  }
+  .width_Lname {
+    width: 80%;
+  }
+
+  .kichthuocdonhang_pop_up {
+    width: 355px;
+    height: 550px;
+    background-color: #f1f1f1;
+    /* Kích thước khung đựng nguyên cái pop up */
+  }
+  .buy_sell_title_new {
+    padding-left: 10px;
+    font-size: 22px;
+  }
+  .width_height_align {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .padding_left_close_button {
+    padding-left: 0px;
+  }
+  #left_collum,
+  #left_collum_dangky,
+  #left_collum_dangnhap {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Media query for iPhone X */
+  .frame_in4_pop_up {
+    /* Canh lề trái cho pop up */
+    margin-left: 10px;
+  }
+  #popup_book_in4 {
+    /* Kích thước pop up */
+    width: 300px;
+  }
+  #tensach,
+  #giasach,
+  #tentacgia,
+  #theloai {
+    width: 100%;
+  }
+  .book_title {
+    font-size: 25px;
+    padding-left: 25px;
+  }
+  #add_story_in4 {
+    /* Kích thước pop up */
+    width: 300px;
+    height: 930px;
+  }
+
+  #personal_in4 {
+    width: 300px;
+    height: 850px;
+  }
+
+  .Email {
+    width: 100%;
+  }
+
+  #Fname,
+  #Lname,
+  #Phone,
+  #AddressNo,
+  #Street,
+  #Ward,
+  #Provine,
+  #City {
+    width: 100%;
+  }
+  #Password {
+    width: 80%;
+  }
+  #reset {
+    width: 20%;
+  }
+  #anhbia_thembaiviet {
+    width: 100%;
+  }
+  /* Pop up trang đăng ký */
+  .dangkymoi_pop_up {
+    margin-left: 10px;
+  }
+  .kichthuocdangkymoi_pop_up {
+    width: 300px;
+    height: 1200px;
+    background-color: #f1f1f1;
+  }
+  .row_1 {
+    padding-top: 80px;
+  }
+  .width_Fname {
+    width: 80%;
+  }
+  .width_Lname {
+    width: 80%;
+  }
+  .width_Email {
+    width: 170px;
+  }
+  .kichthuocdonhang_pop_up {
+    width: 300px;
+  }
+  .buy_sell_title_new {
+    padding-left: 10px;
+    font-size: 22px;
+  }
+  .width_height_align {
+    margin-left: 0px;
+  }
+  #left_collum,
+  #left_collum_dangky {
+    display: none;
+  }
+}

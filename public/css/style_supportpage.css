@@ -1,0 +1,908 @@
+/************************
+Chỉnh CSS chung
+************************/
+
+.mauchu {
+    color: #f48225;
+}
+
+.maunen {
+    background-color: #f5903d;
+    color: white;
+}
+
+.maunennut {
+    background-color: #E0CA71;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/************************
+Chỉnh CSS cho header
+************************/
+
+.row{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.height100 {
+	height: 85px;
+}
+
+.height50{
+	height: 50px;
+}
+
+.background{
+    background-color: #F1F1F1;
+}
+
+#tieude {
+    font-family: 'Arial';
+    margin-bottom: 0px;
+    margin-top: 27px;
+    margin-left: 130px;
+    font-size: 51px;
+}
+
+#logo {
+    width: 120px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left:100px;
+}
+
+.nutdangnhap {
+    margin: 10px;
+    margin-top: 0px;
+    width: 150px;
+    height: 46px;
+    font-size: 20px;
+}
+
+#cotmenu {
+    padding: 0px;
+}
+
+#cottimkiem {
+    padding: 0px;
+}
+
+#cotdieuhuong {
+    padding: 0px;
+}
+
+#otimkiem {
+    margin-top: 15px;
+}
+
+.kichthuocmenu {
+    width: 20%;
+    height: 40px;
+}
+
+
+#hinhmenu {
+    padding-right: 0px;
+}
+
+#dropdownMenuButton {
+    margin-top: 15px;
+    padding: 0px;
+    background-color:#F1F1F1;
+    border: hidden;
+}
+
+#otextsearch {
+    width: 92%;
+}
+
+#iconsearch {
+    width: 8%;
+}
+
+#danhsachlink {
+    width: 100%;
+}
+
+#dieuhuong {
+    width: 40px;
+    height: 40px;
+}
+
+#collapsedieuhuong {
+    width: 100%;
+}
+
+.menudropdown {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	margin-left: 30px;
+}
+
+#thanhdieuhuong {
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+#thanhgach {
+    visibility: hidden;
+}    
+
+#trangchu_6, #trangchu_7, #trangchu_8, #trangchu_9 {
+    background-color: #260a07;
+    border-color: #e4a51f;
+}
+
+#trangchu_1, #trangchu_2, #trangchu_3, #trangchu_4 {
+    background-color: #260a07;
+    border-color: #e4a51f;
+	width: 25%;
+}
+
+#trangchu:hover, #trangchu_1:hover, #trangchu_2:hover, #trangchu_3:hover, #trangchu_4:hover, #trangchu_5:hover, #trangchu_6:hover, #trangchu_7:hover, #trangchu_8:hover, #trangchu_9:hover {
+    background-color: #f48225;
+    border-color: #f48225;
+}
+
+#trangchu {
+    background-color:#f2ca52;
+    border-color:#f2ca52;
+	width: 25%;		
+}
+
+#trangchu_5 {
+    background-color:#f2ca52;
+    border-color:#f2ca52;
+}
+
+/************************
+Chỉnh CSS cho container
+************************/
+
+section {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 900px;
+    background-color: #F1F1F1;
+}
+
+.container{
+    width: 90%;
+}
+
+.chieucao{
+	height: auto;
+}
+#khungslider {
+    margin-top: 15px;
+}
+
+#tuadesach {
+    margin-top: 15px;
+}
+
+#tuadesachtuongtu {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#chonmua {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 200px;
+    height: 59px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#tacgia {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#gmap_canvas {
+    width: 180px;
+    height: 140px;
+    margin-top: 15px;
+}
+
+.sach {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+
+.baiviet {
+	width: 320px;
+	height: 210px;
+	margin: auto;
+	padding: 10px;
+}
+
+.giasach {
+    width: 200px;
+    height: 15px;
+    margin: auto;
+}
+
+.mautuade {
+    color: #F37B1B;
+    font-size: 51px;
+    padding-top: 0px;
+}
+
+.mautuade1{
+    color: #F37B1B;
+    font-size: 38px;
+}
+
+.maunoidung{
+    font-size: 20px;
+}
+
+.maugia {
+    color:red;
+    font-size: 51px;
+}
+
+.maugia1 {
+    color: #F37B1B;
+    font-size: 32px;
+}
+
+
+.maunutchonmua {
+    background-color:red;
+    color: white;
+}
+
+.mautuadechitiet {
+    color: #D2691E;
+}
+
+.mautacgia {
+    color: orange;
+}
+
+.mautheloai {
+    color: #456f95;
+}
+
+.mauid {
+    color: #d8d8d8;
+}
+
+.canhgiua {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.kyhieu {
+    width: 40px;
+    height: 40px;
+}
+
+#chitietsach {
+    width: 268px;
+    height: 400px;
+}
+
+#chitietsach1 {
+    width: 140px;
+    height: 200px;
+}
+
+#chitietsach2 {
+    width: 130px;
+    height: 200px;
+}
+
+#danhdau {
+    width: 68px;
+    height: 87px;
+    display: inline;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-100 {
+    width: 230px;
+    height: 400px;
+    /* background-color: #456f95; */
+}
+
+.card-body {
+    height: 90px;
+}
+
+.card-footer {
+    background-color: #F1F1F1;
+    border-style: none;
+    height: 40px;
+}
+
+#hangnoidung1 {
+    height: 10%;
+}
+
+#hangnoidung2 {
+    height: 10%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #F37B1B;
+}
+
+#hangnoidung3 {
+    padding-top: 50px;
+    border-bottom: solid 1px;
+    border-color: #F37B1B;
+    height: 20%;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    margin-top: 10px;
+}
+
+/************************
+Chỉnh CSS cho footer
+************************/
+
+#bklogo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-image: url("anhnen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+	height: 240px;
+}
+
+.tieudefooter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cottieudefooter {
+	height: 230px;
+}
+
+#cotlienhefooter {
+	height: 230px;	
+}
+
+#hangtacgia {
+	height: 60px;
+}
+
+#cotlienhe {
+	height: 100%;
+}
+
+#lienhediachi, #lienhelogo {
+	height: 100%;
+}
+
+/********************************************************
+Chỉnh media query cho màn hình của các thiết bị khác nhau
+*********************************************************/
+
+@media screen and (max-width: 1219px) {
+	.menudidong {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.cochudidong {
+		font-size: 23px;
+	}
+}
+
+
+@media screen and (max-width: 1104px) {
+	.menudidong {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1099px) {
+	.cochudidong {
+		font-size: 19px;
+	}
+
+}
+
+@media screen and (max-width: 1046px) {
+	.menudidong {
+		font-size: 12px;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {	
+	#hanglogo {
+		height: 150px;
+		padding-left: 0px;
+		padding-right: 20px;
+	}
+
+	#hangheader {
+		height: 270px;
+	}
+	
+	.cochudidong {
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+    section {
+        height: 900px;
+    }
+
+    footer {
+        height: 500px;
+    }
+
+    #thanhgach {
+        visibility: visible;
+    }    
+
+    p {
+        font-size: 15px;
+    }
+	
+	#nutmenudidong {
+		width: 87px;
+	}
+
+	.cochudidong {
+		font-size: 18px;
+	}
+	
+	#tieude {
+		margin-left: 0px;
+	}
+	
+	#hangsach {
+		margin-left: 30px;
+	}
+
+	#hangbaiviet {
+		margin-left: 30px;
+	}
+	
+}
+
+@media screen and (max-width: 810px) {
+	.mautuade {
+		font-size: 50px;
+		margin-top: 10px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {	
+    section {
+        height: 900px;
+    }    
+	
+	#nutmenudidong {
+		width: 75px;
+	}
+	
+	#danhdau {
+		width: 59px;
+		height: 73px;
+		display: inline;
+	}
+	
+	.cochudidong {
+		font-size: 16px;
+	}	
+	
+	#tieude {
+		margin-left: 60px;
+	}
+
+	#cochugia {
+		font-size: 38px;
+		margin-top: 5px;
+	}
+	
+	#chonmua {
+		width: 150px;
+		height: 50px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 788px) {
+	.mautuade {
+		font-size: 40px;
+		margin-top: 8px;
+	}		
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        height: 1100px;
+    }    
+
+    footer {
+        height: 490px;
+    }
+
+    #khungchuagiua {		
+        background-color: white;
+        height: 1400px;
+    }    
+
+    #khungchuaslide {
+        height: 100px;
+    }
+	
+	.cochudidong {
+		font-size: 17px;
+	}
+
+	#hangsach {
+		margin-left: 80px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 80px;
+	}	
+}
+@media only screen and (max-width: 640px) {
+    section {
+        height: 1100px;
+    }    
+	
+	#nutmenudidong {
+		width: 65px;
+	}
+	
+	.menudropdown {
+		margin-left: 15px;
+	}
+	
+	#logo {
+		margin-left: 0px;
+	}
+	
+	#tieude {
+		margin-left: 0px;
+	}
+	
+	#hangsach {
+		margin-left: 90px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 90px;
+	}	
+}
+
+@media only screen and (max-width: 575px) {
+	#cotlienhe {
+		height: 250px;
+	}
+	
+	footer {
+        height: 680px;
+	}
+	
+	#lienhelogo {
+		height: 180px;
+	}	
+}
+
+@media only screen and (max-width: 548px) {
+	#sachtuongtu {
+		font-size: 33px;
+	}
+	
+	#hangsach {
+		margin-left: 40px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 492px) {
+	.mautuade {
+		font-size: 35px;
+		margin-top: 10px;
+	}			
+}
+
+@media only screen and (max-width: 480px) {
+	#nutmenudidong {
+		width: 60px;
+	}
+	
+	.menudropdown {
+		margin-left: 10px;
+	}
+	
+	#logo {
+		margin-left: 0px;
+	}
+	
+	#tieude {
+		margin-left: 10px;
+	}
+	
+	.mautuade {
+		margin-top: 10px;
+		margin-bottom: 0px;
+		font-size: 38px;
+	}
+
+    #khungchuagiua {
+		margin-left: 6px;
+	}
+	
+	#cochugia {
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	
+	#hangsach {
+		margin-left: 40px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 40px;
+	}	
+}
+
+@media only screen and (max-width: 478px) {
+	.mautuade {
+		font-size: 30px;
+		margin-top: 10px;
+	}			
+	
+	.cochudidong {
+		font-size: 15px;
+	}
+
+}
+
+
+@media only screen and (max-width: 469px) {
+	#sachtuongtu {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width: 457px) {
+	#sachtuongtu {
+		font-size: 31px;
+	}
+}
+
+@media only screen and (max-width: 446px) {
+	#sachtuongtu {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	#sachtuongtu {
+		font-size: 29px;
+	}
+}
+
+@media only screen and (max-width: 423px) {
+	#sachtuongtu {
+		font-size: 28px;
+	}
+	
+	#hangsach {
+		margin-left: 0px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 421px) {
+	.mautuade {
+		font-size: 25px;
+		margin-top: 18px;
+	}				
+	
+	#cochugia {
+		font-size: 27px;
+		margin-top: 20px;
+	}
+	
+	#chonmua {
+		width: 80px;
+		height: 50px;
+		font-size: 14px;
+	}
+	
+		.chunutlon {
+		width: 120px;
+		font-size: 15px;
+	}
+	
+	#tieude {
+		font-size: 40px;
+		margin-left: 30px;
+	}
+	
+	#otextsearch {
+		width: 90%;
+	}
+	
+	#iconsearch {
+		width: 10%;
+	}
+}
+
+@media only screen and (max-width: 403px) {
+	.maunoidung {
+		font-size: 18px;
+	}
+	
+	#sachtuongtu {
+		font-size: 27px;
+	}
+}
+
+@media only screen and (max-width: 385px) {
+	.mautuade {
+		font-size: 23px;
+		margin-top: 20px;
+	}			
+}
+
+@media screen and (max-width: 374px) {
+    .nutdangnhap {
+        width: 120px;        
+    }
+	
+	.chunutlon {
+		font-size: 15px;
+	}
+	
+	.text-right {
+		text-align: left !important;
+	}
+	
+	#otextsearch {
+		width: 90%;
+	}
+	
+	#iconsearch {
+		width: 10%;
+		padding-left: 6px;
+	}
+	
+	#thanhgach {
+		padding-left: 0px;
+	}
+	
+	.menudropdown {
+		margin-left: 0px;
+	}
+	
+	#tieude {
+		font-size: 38px;
+		margin-left: 27px;
+		margin-top: 45px;
+	}
+	
+	.mautuade {
+		margin-top: 20px;
+		margin-bottom: 0px;
+		font-size: 23px;
+	}
+	
+	.cochudidong {
+		font-size: 14px;		
+	}
+	
+	#cochugia {
+		font-size: 23px;
+		margin-top: 20px;
+	}
+	
+	#chonmua {
+		width: 80px;
+		height: 50px;
+		font-size: 15px;
+	}
+	
+	.maunoidung {
+		font-size: 17px;
+	}
+
+	#sachtuongtu {
+		font-size: 24px;
+	}
+	
+	#hangsach {
+		margin-left: 0px;
+	}
+	
+	#hangbaiviet {
+		margin-left: 0px;
+	}	
+	
+	#cotlienhe {
+		height: 250px;
+	}	
+}
+
+@media screen and (max-width: 365px) {
+	.mautuade {
+		font-size: 20px;
+		margin-top: 20px;
+	}				
+	
+	.cochudidong {
+		font-size: 13px;		
+	}
+
+}
+
+
+.dpopup{
+	position: fixed;
+	top: 300px;
+	left: 50%;
+	background: white;
+	transform: translate(-50%,-50%);
+	height: 60%;
+	overflow-y: scroll;
+	width: 70%;
+	box-shadow: 10px 10px 10px -1px rgba(0,0,0,0.2);
+	/* box-shadow: 10px 10px 10px;
+    -moz-box-shadow: 30px 30px 30px;
+    -webkit-box-shadow: 30px 30px 30px;
+    -o-box-shadow: 30px 30px 30px;
+    -ms-box-shadow: 30px 30px 30px; */
+}
+
+button.d_close{
+	position: fixed;
+	top: 115px;
+	left: 85%;
+    background: #f00;
+    border: none;
+    color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin: auto;
+}
